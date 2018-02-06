@@ -20,10 +20,10 @@ public class WordList
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Finds the amount of words in the array list that have the given amount of characters
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param len The desired length to search for
+     * @return The amount of words in the array list that have the given amount of characters
      */
     public int numWordsOfLength(int len)
     {
@@ -33,16 +33,18 @@ public class WordList
     }
     
     /**
-     * An example of a method - replace this comment with your own
+     * Removes words from the array list that have the given amount of characters
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param len The desired length to search for
      */
     public void removeWordsOfLength(int len)
     {
         for (int i=myList.size()-1; i>=0; i--) if (myList.get(i).length()==len) myList.remove(i);
     }
     
+    /**
+     * Prints the word list
+     */
     public void printWordList() {
         for (String w: myList) System.out.println(w);
         System.out.println();
