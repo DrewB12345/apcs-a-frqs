@@ -1,0 +1,17 @@
+830
+Number: 830
+Price: 50.0
+
+Number: 895
+Price: 40.0
+
+Number: 438
+Price: 30.0
+
+Number: 173
+Price: 20.0
+(student ID required)
+
+Number: 386
+Price: 15.0
+(student ID required)
