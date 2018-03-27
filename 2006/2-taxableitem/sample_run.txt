@@ -1,0 +1,2 @@
+The vehicle's list price is 22500.0.
+The vehicle's purchase price is 24750.000000000004.
